@@ -5,3 +5,6 @@
 # MyResume
 
 ## Hello World!
+
+# Today is friday
+
