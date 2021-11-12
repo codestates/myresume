@@ -4,7 +4,8 @@
 
 # MyResume
 
+2일차 깃플로우 연습!
+
 ## Hello World!
 
 # Today is friday
-
