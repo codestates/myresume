@@ -11,3 +11,5 @@
 # Today is friday
 
 #leesolim-2021.11.11
+
+#이것은 충돌이 일어날수도 있음
