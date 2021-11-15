@@ -1,7 +1,12 @@
 import React from "react";
+import JobSearchSection from "./JobSearchSection";
 
 function Index() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <JobSearchSection />
+    </div>
+  );
 }
 
 export default Index;
