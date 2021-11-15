@@ -4,6 +4,7 @@ import Footer from "./Sections/Footer";
 import About from "./Sections/About";
 import SignupLogin from "../../components/SignupLogin";
 import axios from "axios";
+import JobSearchSection from "./JobSearchSection";
 
 function Index() {
   //usestates 부분을 local storage로 바꾼다.
@@ -74,12 +75,10 @@ function Index() {
           <div></div>
         )}
       </div>
+      <JobSearchSection />
       <About />
       <Footer />
-    </div>
   );
 }
 
 export default Index;
-
-//일부 필요한 부분(새로 고침시 영향을 받을 부분)을 로컬 스토리지로 교체.
