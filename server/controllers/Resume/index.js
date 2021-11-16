@@ -4,14 +4,15 @@ const { User, Resume } = require("../../models");
 module.exports = {
   editResume: async (req, res) => {
     const { resumeId } = req.params;
-    const { resumeData } = req.body;
 
-    if (!resumeId || !resumeData) {
+    const targetResume = await Resume.findOne({ where: { id: resumeId } });
+
+    if (!targetResume || !Object.keys(req.body).length) {
       return res.status(400).json({ message: "there is no data to change" });
     }
 
     try {
-      await Resume.update({ ...resumeData }, { where: { id: resumeId } });
+      await Resume.update({ ...req.body }, { where: { id: resumeId } });
       res.status(200).json({ message: "edit resume success" });
     } catch (err) {
       console.log(err);

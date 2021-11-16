@@ -1,0 +1,25 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "이것은 테스트 리드미입니다.",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd ./client && npm start",
+    "backend": "cd ./server && npm start",
+    "dev": "concurrently \"npm run client\" \"npm run backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chltjdrhd777/myresume.git"
+  },
+  "keywords": [],
+  "author": "Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chltjdrhd777/myresume/issues"
+  },
+  "homepage": "https://github.com/chltjdrhd777/myresume#readme",
+  "dependencies": {
+    "concurrently": "^6.4.0"
+  }
+}

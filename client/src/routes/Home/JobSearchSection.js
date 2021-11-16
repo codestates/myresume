@@ -150,14 +150,12 @@ const S = {
       margin: 2rem;
       font-size: 1.7rem;
       user-select: none;
-      color: ${({ index, tabbedIndex }) =>
-        index === tabbedIndex ? "black" : "white"};
+      color: ${({ index, tabbedIndex }) => (index === tabbedIndex ? "black" : "white")};
       font-weight: 500;
     }
 
     .roundDeco-top {
-      display: ${({ index, tabbedIndex }) =>
-        index === tabbedIndex ? "block" : "none"};
+      display: ${({ index, tabbedIndex }) => (index === tabbedIndex ? "block" : "none")};
       width: 3rem;
       height: 3rem;
       background-color: white;
@@ -179,13 +177,12 @@ const S = {
     }
 
     .roundDeco-bottom {
-      display: ${({ index, tabbedIndex }) =>
-        index === tabbedIndex ? "block" : "none"};
+      display: ${({ index, tabbedIndex }) => (index === tabbedIndex ? "block" : "none")};
       width: 3rem;
       height: 3rem;
       background-color: white;
       position: absolute;
-      top: 83%;
+      top: 89%;
       right: -21.5%;
       z-index: -1;
 
@@ -194,8 +191,9 @@ const S = {
         height: 1.8rem;
         width: 1.8rem;
         position: absolute;
-        top: 50%;
+        top: 40%;
         bottom: 0%;
+        left: 0;
         background-color: #4d5bf9;
         border-top-right-radius: 100%;
       }
