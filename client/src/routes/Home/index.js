@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Footer from "./Sections/Footer";
 import About from "./Sections/About";
 import SignupLogin from "../../components/SignupLogin";
 import axios from "axios";
 import JobSearchSection from "./JobSearchSection";
+import Rightbar from "../../components/rightbar/Rightbar";
+import "./home.css";
 
 function Index() {
   //usestates 부분을 local storage로 바꾼다.
@@ -56,7 +57,9 @@ function Index() {
 
   return (
     <div>
-      <div>home</div>
+      <div className="homeContainer">
+        <Rightbar />
+      </div>
       <div>
         <button
           onClick={openHandler}
@@ -77,7 +80,7 @@ function Index() {
       </div>
       <JobSearchSection />
       <About />
-      <Footer />
+    </div>
   );
 }
 
