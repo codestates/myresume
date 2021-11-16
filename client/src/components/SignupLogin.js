@@ -104,8 +104,8 @@ function SignupLogin({ openHandler, loginHandler, issueAccessToken }) {
             username,
           })
           .then((response) => {
-            //성공하면
-            history.push("/");
+            //성공하면 로그인 페이지로 보내버리기.
+            history.push("/login");
             setsignupError(""); //에러 메시지 초기화
           });
       }

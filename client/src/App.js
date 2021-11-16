@@ -4,6 +4,7 @@ import Mypage from "./routes/Mypage/index";
 import Resume from "./routes/Resume/index";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "../src/routes/Home/Sections/Footer";
+import Signup from "../src/routes/Home/pages/Signup";
 import Story from "routes/Story";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/mypage" element={<Mypage />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/sign-up" element={<Signup />} />
           <Route path="story/*" element={<Story />} />
         </Routes>
         <Footer />
