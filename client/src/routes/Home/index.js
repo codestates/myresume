@@ -60,26 +60,12 @@ function Index() {
       <div className="homeContainer">
         <Rightbar />
       </div>
-      <div>
-        <button
-          onClick={openHandler}
-          isLogin={isLogin}
-          logoutHandler={logoutHandler}
-        >
-          Login/Signup
-        </button>
-        {isOpen === true ? (
-          <SignupLogin
-            openHandler={openHandler}
-            loginHandler={loginHandler}
-            issueAccessToken={issueAccessToken}
-          />
-        ) : (
-          <div></div>
-        )}
-      </div>
       <JobSearchSection />
+      <br />
+      <br />
       <About />
+      <br />
+      <br />
     </div>
   );
 }
