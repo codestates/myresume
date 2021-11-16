@@ -4,6 +4,7 @@ import Mypage from "./routes/Mypage/index";
 import Resume from "./routes/Resume/index";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "../src/routes/Home/Sections/Footer";
+import Story from "routes/Story";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/mypage" element={<Mypage />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="story/*" element={<Story />} />
         </Routes>
         <Footer />
       </Router>
