@@ -23,44 +23,35 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener("resize", showButton);
 
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            MyResume
-            <i class='fas fa-globe-americas' />
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            My Resume
+            <i className="fas fa-globe-americas" />
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/mypage'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+            <li className="nav-item">
+              <Link to="/mypage" className="nav-links" onClick={closeMobileMenu}>
                 MyPage
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/resume'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+            <li className="nav-item">
+              <Link to="/resume" className="nav-links" onClick={closeMobileMenu}>
                 New Resume
               </Link>
             </li>
-
           </ul>
           {button && <Button Link to='/mypage' buttonStyle='btn--outline'>SIGNUP</Button>}
           {button && <Button Link to='/mypage'buttonStyle='btn--outline'>LogIn</Button>}
