@@ -1,0 +1,456 @@
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.brandName {
+  color: rgb(153, 255, 0);
+  cursor: pointer;
+}
+.navbar {
+  width: 50%;
+  padding-bottom: 0;
+  color: rgb(167, 120, 243);
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  padding-left: 150px;
+}
+
+.rightSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: plum;
+  justify-content: center;
+  color: rgb(153, 255, 0);
+}
+
+.navbar .rightSide a {
+  color: rgb(153, 255, 0);
+  text-decoration: none;
+  margin: 40px;
+}
+
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: rgb(153, 255, 0);
+  cursor: pointer;
+}
+.navbar .rightSide input {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  padding-left: 20px;
+  color: rgb(153, 255, 0);
+}
+
+.navbar .rightSide .searchBtn {
+  height: 50px;
+  width: 70px;
+  font-size: 16px;
+}
+/* 
+.navbar .rightSide svg {
+  font-size: 40px;
+}
+
+.navbar #open {
+  padding-left: 0px;
+}
+.navbar #open img {
+  display: none;
+}
+
+.navbar #close img {
+  display: inherit;
+}
+
+.navbar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+
+.navbar #open a {
+  width: 70px;
+  margin: 5px;
+} */
+/* @media only screen and (max-width: 900px) {
+  .navbar .rightSide a {
+    width: 70px;
+  }
+  .navbar .leftSide {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
+  }
+
+  .navbar .rightSide {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .navbar .rightSide button {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar .rightSide button {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+} */
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #121619;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.navbar .leftSide img {
+  width: 70px;
+}
+
+.navbar .rightSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .rightSide svg {
+  font-size: 40px;
+}
+
+.navbar #open {
+  padding-left: 0px;
+}
+
+.navbar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+.navbar #open .brandName {
+  display: none;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+.navbar #open a {
+  width: 70px;
+  margin: 5px;
+}
+@media only screen and (max-width: 900px) {
+  .navbar .rightSide a {
+    width: 70px;
+  }
+  .navbar .leftSide {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
+  }
+
+  .navbar .rightSide {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .navbar .rightSide button {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar .rightSide button {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  background: blue;
+}
+
+.footer p {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+
+.aboutInput {
+  display: inline-block;
+}
+
+.userinfoContainer {
+  width: 920px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: mediumaquamarine;
+  border: none;
+}
+.userInfoBox {
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: rgb(255, 238, 0);
+}
+
+.userinfoInput {
+  position: relative;
+  width: 300px;
+  height: 30px;
+  background: transparent;
+  margin: 0px 0px 10px 10px;
+
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+.userMailInput {
+  position: relative;
+  width: 300px;
+  height: 30px;
+  background: transparent;
+  margin: 0px 0px 10px 10px;
+
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+.userGithubInput {
+  position: relative;
+  width: 300px;
+  height: 30px;
+
+  background: transparent;
+
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-size: 12px;
+  margin: 0px 0px 10px 10px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+.formWraper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-input {
+  width: 80%;
+  height: 40px;
+  margin: 10px;
+}
+
+.text-area {
+  width: 80%;
+  min-height: 500px;
+}
+
+.btnGroup {
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.saveBtn {
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+  border: none;
+  background: rgb(167, 120, 243);
+  border-radius: 5px;
+}
+
+.submitBtn {
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+  border: none;
+  margin-left: 10px;
+  background: rgb(167, 120, 243);
+  border-radius: 5px;
+}
+
+/* .buttonSection {
+} */
+
+.field1 {
+  display: flex;
+  padding: 10px;
+
+  padding-right: 10px;
+  /* border: 2px solid black; */
+  background-color: #f39189;
+}
+.formWraperZero {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  background: transparent;
+  /* border: none; */
+  outline: none;
+  font-size: 24px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+}
+.formWraperOne {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  background: transparent;
+  /* border: none; */
+  outline: none;
+  font-size: 24px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+}
+
+.formWraperTwo {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  background: transparent;
+  /* border: none; */
+  outline: none;
+  font-size: 24px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+}
+
+.formWraperThree {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  background: transparent;
+  /* border: none; */
+  outline: none;
+  font-size: 24px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+}
+
+.formWraperFour {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  background: transparent;
+  /* border: none; */
+  outline: none;
+  font-size: 24px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+}
+
+.formWraperContent {
+  background-color: #e2e2e2;
+  width: 920px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formWraperContent1 {
+  background-color: #e2e2e2;
+  width: 920px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formWraperContent2 {
+  background-color: #e2e2e2;
+  width: 920px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formWraperContent3 {
+  background-color: #e2e2e2;
+  width: 920px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formWraperContent4 {
+  background-color: #e2e2e2;
+  width: 920px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
