@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { MoreVert } from "@material-ui/icons";
 import './resumeList.css';
 import ReactDOM from "react-dom";
@@ -6,6 +7,7 @@ import { ButtonThemes, ButtonTypes, ButtonSizes } from "./buttonTypes";
 import { IconTypes } from "./IconTypes";
 import Button from "./Button";
 import postperson from "../../assets/img/person/이정재.jpg";
+import ResumeForm from 'components/ResumeForm';
 
 function ResumeList() {
     return (
@@ -33,12 +35,12 @@ function ResumeList() {
 궁금하지만 알 수 없었던 정보를 확인해보세요.
                     </div>
                     <div className="resumeButton">
+                    <Link to='components/ResumeForm'>
                     <Button
           size={ButtonSizes.MEDIUM}
           label="이력서 작성하기"
-          onClickHandler={() => alert("작성된 이력서가 없습니다")}
           type={ButtonTypes.SECONDARY}
-        />
+        /></Link>
                     </div>
                     
                 </div>

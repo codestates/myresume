@@ -3,7 +3,8 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Feed from "../../components/feed/Feed";
 import Rightbar from "../../components/rightbar/Rightbar";
 import postperson from "../../assets/img/person/이정재.jpg";
-import clo from "../../assets/img/person/구름57.jpg";
+import backgroundImg from "../../assets/img/person/반짝반짝.jpg";
+
 
 export default function Profile() {
   return (
@@ -15,7 +16,7 @@ export default function Profile() {
             <div className="profileCover">
               <img
                 className="profileCoverImg"
-                src={clo}
+                src={backgroundImg}
                 alt=""
               />
               <img
@@ -26,7 +27,7 @@ export default function Profile() {
             </div>
             <div className="profileInfo">
                 <h4 className="profileInfoName">Lee Jung-jae</h4>
-                <span className="profileInfoDesc">(한줄 소개)</span>
+                {/* <div className="profileInfoDesc">(한줄 소개)</div> */}
             </div>
           </div>
           <div className="profileRightBottom">
