@@ -15,14 +15,7 @@ function Signup(props) {
 
   const handleSignupInputValue = (key) => (e) => {
     setuserinfo({ ...userinfo, [key]: e.target.value });
-    // console.log("result", key, e.target.value);
   };
-
-  //유효한 이메일인지 검사
-  //   const validEmailCheck = (email) => {
-  //     let regExp = /^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
-  //     return regExp.test(email);
-  //   };
 
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -40,7 +33,7 @@ function Signup(props) {
       } else {
         axios
           .post("http://localhost:5000/auth/signup", {
-            //http://localhost:5000/auth/signup => 성공
+            //https://localhost:5000/auth/signup
             //post
             email,
             password,
@@ -49,8 +42,7 @@ function Signup(props) {
           })
           .then((response) => {
             console.log("success");
-            // history.push("/"); //성공하면 기존 홈페이지로 넘겨버리기
-            history("/");
+            history("/login");
             setErrorMessage(""); //에러 메시지 초기화
           });
       }
@@ -117,14 +109,3 @@ function Signup(props) {
 }
 
 export default Signup;
-//adasd@sjdfoisf.cosd => 샘플
-//FEAT: 회원가입 페이지 구현 및 테스트 완료
-
-/*
-없는 컴포넌트에 상태 업데이트하려 한다.
-index.js:1 Warning: Can't perform a React state update on an unmounted component. 
-This is a no-op, but it indicates a memory leak in your application. 
-To fix, cancel all subscriptions and asynchronous tasks 
-in a useEffect cleanup function.
-at Signup (http://localhost:3000/static/js/main.chunk.js:5679:89)
-*/
