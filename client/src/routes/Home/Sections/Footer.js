@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import { Button } from './Button';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import footer from './footer.css'
+
 import {
   faTwitter,
   faInstagram,
@@ -15,6 +18,19 @@ export const Box = styled.div`
   bottom: 0;
   width: 100%;
 `;
+
+export const Footerheading = styled.div`
+  margin-bottom: 24px;
+  font-size: 30px;
+  color: white;
+`
+
+export const Footersubscriptiontext = styled.div`
+  margin-bottom: 24px;
+  font-size: 20px;
+  color: white;
+`
+
 
 export const Container = styled.div`
   display: flex;
@@ -52,6 +68,20 @@ export const FooterLink = styled.a`
 function Footer() {
   return (
     <Box>
+      <Footerheading>Join the Adventure newsletter to receive our best resume template !</Footerheading>
+      <Footersubscriptiontext>You can unsubscribe at any time.</Footersubscriptiontext>
+      
+      <form>
+        <input className = 'footer-input'
+        name='email'
+        type='email'
+        placeholder='Your Email'
+        >
+
+        </input>
+        <Button buttonStyle='btn--outline'>Subscribe</Button>
+        </form>
+       
       <Container>
         <Row>
           <div

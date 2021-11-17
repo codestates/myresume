@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Han+Sans&family=Do+Hyeon&family=Gothic+A1:wght@800&family=Gowun+Batang&family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@800&family=Gowun+Batang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@800&family=Gowun+Batang&family=Nanum+Brush+Script&display=swap');
 .App {
   width: 100%;
   height: auto;
@@ -69,68 +72,6 @@ body {
   width: 70px;
   font-size: 16px;
 }
-/* 
-.navbar .rightSide svg {
-  font-size: 40px;
-}
-
-.navbar #open {
-  padding-left: 0px;
-}
-.navbar #open img {
-  display: none;
-}
-
-.navbar #close img {
-  display: inherit;
-}
-
-.navbar #open .hiddenLinks {
-  display: inherit;
-  margin-left: 30px;
-}
-
-.navbar #close .hiddenLinks {
-  display: none;
-}
-
-.navbar #open a {
-  width: 70px;
-  margin: 5px;
-} */
-/* @media only screen and (max-width: 900px) {
-  .navbar .rightSide a {
-    width: 70px;
-  }
-  .navbar .leftSide {
-    padding-left: 50px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .navbar .rightSide a {
-    display: none;
-  }
-
-  .navbar .rightSide {
-    justify-content: flex-end;
-    padding-right: 50px;
-  }
-
-  .navbar .rightSide button {
-    display: inherit;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .navbar .rightSide button {
-    display: none;
-  }
-
-  .hiddenLinks {
-    display: none;
-  }
-} */
 
 .navbar {
   width: 100%;
@@ -254,6 +195,56 @@ body {
   display: inline-block;
 }
 
+.textForm0 {
+  width: 920px;
+  height: 160px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-size: 17px;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+}
+.textForm1 {
+  width: 920px;
+  height: 110px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-size: 17px;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+}
+.textForm2 {
+  width: 920px;
+  height: 110px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-size: 17px;
+  outline: none;
+  resize: none;
+}
+.textForm3 {
+  width: 920px;
+  height: 90px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-size: 17px;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+}
+.textForm4 {
+  width: 920px;
+  height: 800px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-size: 17px;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+}
+
 .userinfoContainer {
   width: 920px;
   height: 250px;
@@ -313,44 +304,89 @@ body {
 
 .formWraper {
   width: 80%;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
-.title-input {
-  width: 80%;
-  height: 40px;
-  margin: 10px;
+.alert {
+  width: 920px;
+  height: 140px;
+
+  font-size: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+  outline: none;
+  background: #3b5998;
 }
 
-.text-area {
-  width: 80%;
-  min-height: 500px;
+.alertMessage {
+  color: white;
+  font-family: 'Alfa Slab One', cursive;
+  font-style: italic;
+  font-size: 55px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.contentBorder {
+  width: 920px;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border: 0.2px solid black;
 }
 
 .btnGroup {
-  text-align: center;
-  margin: 10px 10px 10px 10px;
+  width: 900px;
+  margin: 5px 5px 90px 70px;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .saveBtn {
   width: 90px;
-  height: 30px;
-  font-size: 15px;
+  height: 39px;
+  font-size: 18px;
   border: none;
-  background: rgb(167, 120, 243);
   border-radius: 5px;
+  color: white;
+  background: #4267b2;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .submitBtn {
   width: 90px;
-  height: 30px;
-  font-size: 15px;
+  height: 39px;
+  font-size: 18px;
   border: none;
-  margin-left: 10px;
-  background: rgb(167, 120, 243);
   border-radius: 5px;
+  color: white;
+  background: #4267b2;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 10px;
 }
 
+.saveBtn:hover {
+  background-color: #3b5998;
+  color: white;
+}
+.submitBtn:hover {
+  background-color: #3b5998;
+  color: white;
+}
 /* .buttonSection {
 } */
 
@@ -417,40 +453,26 @@ body {
 }
 
 .formWraperContent {
-  background-color: #e2e2e2;
   width: 920px;
   height: 25px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 32px;
 }
 
-.formWraperContent1 {
-  background-color: #e2e2e2;
+.inputInformation {
   width: 920px;
   height: 25px;
+  font-size: 14px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-}
-.formWraperContent2 {
-  background-color: #e2e2e2;
-  width: 920px;
-  height: 25px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.formWraperContent3 {
-  background-color: #e2e2e2;
-  width: 920px;
-  height: 25px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.formWraperContent4 {
-  background-color: #e2e2e2;
-  width: 920px;
-  height: 25px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: left;
 }
