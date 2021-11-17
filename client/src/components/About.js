@@ -2,11 +2,11 @@ import '../App.css';
 import React, { useState } from 'react';
 
 function About() {
-  const [values, setValues] = useState({
-    userName: '',
-    email: '',
-    mobile: '',
-  });
+  //   const [values, setValues] = useState({
+  //     userName: '',
+  //     email: '',
+  //     mobile: '',
+  //   });
   //   const handleUerNameInputChange = (event) => {
   //     event.persist();
   //     setValues((values) => ({
@@ -31,10 +31,7 @@ function About() {
   return (
     <div className='wrapper'>
       <div className='userinfoContainer'>
-        <h2 className='userinfoContent'>
-          첫번째 안 / 작성자 정보 / Resume.js 위에 About.js를 두고 About은
-          이력서 작성 전, 작성자의 정보를 재차 확인하는 ??{' '}
-        </h2>
+        <h2 className='userinfoContent'></h2>
         <fieldset className='field1'>
           <div className='userInfoBox'>
             <div>
