@@ -31,12 +31,12 @@ function Index() {
 
     if (checkAll === true) {
       for (let i = 0; i <= 2; i++) {
-        window.open(makeEndPoint(searchInput, i), "_blank");
+        window.open(makeEndPoint(searchInput, i), "_blank", "width=1000, height=1000");
       }
       setCheckAll(false);
       setSearchInput("");
     } else {
-      window.open(makeEndPoint(searchInput, tabbedIndex), "_blank");
+      window.open(makeEndPoint(searchInput, tabbedIndex), "hellowWorld", "width=1000, height=1000");
     }
   };
 

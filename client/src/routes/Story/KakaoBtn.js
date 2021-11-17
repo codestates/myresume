@@ -16,15 +16,35 @@ const KakaoBtn = styled.button`
   }
 `;
 
-const onHandleClick = () => {
-  window.location.href = process.env.REACT_APP_KAKAO_OAUTH_LINK;
-};
-
 function Index() {
+  // const [popUpInfo, setPopUpInfo] = useState(null);
+
+  const onHandleClick = () => {
+    window.location.href = process.env.REACT_APP_KAKAO_OAUTH_LINK;
+
+    // if (popUpInfo && !popUpInfo.closed) {
+    //   return;
+    // } else {
+    //   const popupWidth = 700;
+    //   const popupHeight = 700;
+    //   const left = window.screen.width / 2 - popupWidth / 3;
+    //   const top = window.screen.height / 2 - popupHeight / 2;
+    //   setPopUpInfo(
+    //     window.open(
+    //       process.env.REACT_APP_KAKAO_OAUTH_LINK,
+    //       "_blank",
+    //       `width=${popupWidth}, height=${popupHeight}, top=${top}, left=${left}`
+    //     )
+    //   );
+    // }
+  };
+
   return (
-    <KakaoBtn onClick={onHandleClick}>
-      <img src={KaKaoLogo} alt="" />
-    </KakaoBtn>
+    <>
+      <KakaoBtn onClick={onHandleClick}>
+        <img src={KaKaoLogo} alt="kakao" />
+      </KakaoBtn>
+    </>
   );
 }
 
