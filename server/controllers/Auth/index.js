@@ -1,6 +1,7 @@
 const { genAccess, genRefresh, verifyAccess, verifyRefresh } = require("../utils/token");
 const { User } = require("../../models");
 const { hashPassword, decodePassword } = require("../utils/bycript");
+const axios = require("axios");
 
 module.exports = {
   login: async (req, res) => {
@@ -111,7 +112,13 @@ module.exports = {
     }
   },
   getKakaoAccess: async (req, res) => {
-    console.log(req.query);
-    res.send(req.query);
+    res.send(req.query.code);
+    // try {
+    //   const response = await axios.post(process.env.KAKAO_ACCESS_TOKEN_URL);
+
+    //   res.status(200).json({ code: response, messsage: "ok" });
+    // } catch (err) {
+    //   console.log(err);
+    // }
   },
 };

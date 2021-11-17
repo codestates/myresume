@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home/index";
 import Mypage from "./routes/Mypage/index";
@@ -6,9 +7,8 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "../src/routes/Home/Sections/Footer";
 import Signup from "../src/routes/Home/pages/Signup";
 import Story from "routes/Story";
+import Oauth from "routes/Oauth";
 import Login from "../src/routes/Home/pages/Login";
-
-import React, { useEffect, useState } from "react";
 
 function App() {
   const [isLogin, setLogin] = useState(false);
@@ -37,6 +37,7 @@ function App() {
           <Route path="/mypage" element={<Mypage />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/sign-up" element={<Signup />} />
+          <Route path="oauth/*" element={<Oauth />} />
           <Route path="/login" element={<Login setLogin={setLogin} />} />
           <Route path="story/*" element={<Story />} />
         </Routes>
