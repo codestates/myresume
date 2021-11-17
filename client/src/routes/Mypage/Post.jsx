@@ -1,11 +1,8 @@
 import "./post.css";
 import { MoreVert } from "@material-ui/icons";
-import { Users } from "../../dummyData";
-import { useState } from "react";
 import postperson from "../../assets/img/person/이정재.jpg";
 import like from "../../assets/img/person/like.png";
 import heart from "../../assets/img/person/heart.png";
-import ResumeList from "./ResumeList";
 import resumeimg from "../../assets/img/person/RESUME.jpg";
 
 export default function Post() {
@@ -40,7 +37,10 @@ export default function Post() {
             <span className="postLikeCounter">12 people like</span>
           </div>
           <div className="postBottomRight">
-            <span className="postCommentText">3 comment</span>
+            <span className="postCommentText">
+              3 comment
+              
+              </span>   
           </div>
         </div>
       </div>
