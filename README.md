@@ -1,6 +1,8 @@
-<h1 align="center">MyResume 🖋</h1>
+<h1>MyResume 🖋</h1>
 
+<img src="https://cdn.discordapp.com/attachments/907148789637333047/910720133419397200/MacBook_-_1.png" width="600px" height="400px">
 #### 피그마 커버 사진 
+
 
 <br><br>
 
