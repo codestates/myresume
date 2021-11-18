@@ -40,12 +40,12 @@ https://anderson-1.gitbook.io/api-docs-updatedfin/reference/api-reference
 
 ## ✔️ Team Metaverse
 
-|이름|포지션|Github|
-|:---|:---|:---|
-|김희원|(팀장) **Frontend**|<a href="https://github.com/heewonkim-dev"><img alt="Github" src ="https://img.shields.io/badge/@heewonkimdev-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
-|이소림|(팀원) **Frontend**|<a href="https://github.com/solimleee"><img alt="Github" src ="https://img.shields.io/badge/@solimleee-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
-|윤태섭|(팀원) **Frontend**|<a href="https://github.com/taesubyun"><img alt="Github" src ="https://img.shields.io/badge/@taesubyun-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
-|최우철|(팀원) **Backend**|<a href="https://github.com/chltjdrhd777"><img alt="Github" src ="https://img.shields.io/badge/@chltjdrhd777-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
+|이름|포지션 & Github|
+|:---|:---|
+|👩🏻‍💻 김희원 (팀장)|<a href="https://github.com/heewonkim-dev"><img alt="Github" src ="https://img.shields.io/badge/Frontend-@heewonkimdev-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
+|👩🏻‍💻 이소림 (팀원)|<a href="https://github.com/solimleee"><img alt="Github" src ="https://img.shields.io/badge/Frontend-@solimleee-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
+|👨🏻‍💻 윤태섭 (팀원)|<a href="https://github.com/taesubyun"><img alt="Github" src ="https://img.shields.io/badge/Frontend-@taesubyun-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
+|👨🏻‍💻 최우철 (팀원)|<a href="https://github.com/chltjdrhd777"><img alt="Github" src ="https://img.shields.io/badge/Backend-@chltjdrhd777-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
 
 <br><br>
 
