@@ -16,7 +16,7 @@
 
 <br><br>
 
-## DB Schema & API DOCS
+## ✔️ DB Schema & API DOCS
 ### 📒 DB Schema
 <img src="https://cdn.discordapp.com/attachments/907148789637333047/910723195353563207/2021-11-13_9.32.10_uprgb_anime_noise2_2x.png"  width="800px" height="400px" />
 
@@ -33,8 +33,14 @@ https://anderson-1.gitbook.io/api-docs-updatedfin/reference/api-reference
 
 <br><br>
 
-## 팀원들
+## ✔️ Team Metaverse
 (표로해서 => 이름이랑 깃허브 뱃지, 포지션)
+|이름|포지션|Github|
+|:---|:---|:---|
+|김희원|(팀장)|[![LinkedIn][linkedin-shield]][https://github.com/heewonkim-dev]|
+|이소림|(팀원)|[![LinkedIn][linkedin-shield]][linkedin-url]|
+|윤태섭|(팀원)|[![LinkedIn][linkedin-shield]][linkedin-url]|
+|최우철|(팀원)|[![LinkedIn][linkedin-shield]][linkedin-url]|
 
 ## WIKI
 (위키 링크 들어가는 곳)
