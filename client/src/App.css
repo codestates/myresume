@@ -1,38 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Han+Sans&family=Do+Hyeon&family=Gothic+A1:wght@800&family=Gowun+Batang&family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@800&family=Gowun+Batang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@800&family=Gowun+Batang&family=Nanum+Brush+Script&display=swap');
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
+}
+
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.brandName {
+  color: rgb(153, 255, 0);
+  cursor: pointer;
+}
+.navbar {
+  width: 50%;
+  padding-bottom: 0;
+  color: rgb(167, 120, 243);
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: orange;
+  padding-left: 150px;
+}
+
+.rightSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: plum;
+  justify-content: center;
+  color: rgb(153, 255, 0);
+}
+
+.navbar .rightSide a {
+  color: rgb(153, 255, 0);
+  text-decoration: none;
+  margin: 40px;
+}
+
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: rgb(153, 255, 0);
+  cursor: pointer;
+}
+.navbar .rightSide input {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  padding-left: 20px;
+  color: rgb(153, 255, 0);
+}
+
+.navbar .rightSide .searchBtn {
+  height: 50px;
+  width: 70px;
+  font-size: 16px;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #121619;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .leftSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.navbar .leftSide img {
+  width: 70px;
+}
+
+.navbar .rightSide {
+  flex: 50%;
+  height: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .rightSide svg {
+  font-size: 40px;
+}
+
+.navbar #open {
+  padding-left: 0px;
+}
+
+.navbar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+.navbar #open .brandName {
+  display: none;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+.navbar #open a {
+  width: 70px;
+  margin: 5px;
+}
+@media only screen and (max-width: 900px) {
+  .navbar .rightSide a {
+    width: 70px;
+  }
+  .navbar .leftSide {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
+  }
+
+  .navbar .rightSide {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .navbar .rightSide button {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar .rightSide button {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  background: blue;
+}
+
+.footer p {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+
+.aboutInput {
+  display: inline-block;
+}
+
+.textForm0 {
+  width: 920px;
+  height: 160px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-size: 17px;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+}
+.textForm1 {
+  width: 920px;
+  height: 110px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-size: 17px;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+}
+.textForm2 {
+  width: 920px;
+  height: 110px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-size: 17px;
+  outline: none;
+  resize: none;
+}
+.textForm3 {
+  width: 920px;
+  height: 90px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-size: 17px;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+}
+.textForm4 {
+  width: 920px;
+  height: 800px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-size: 17px;
+  overflow: hidden;
+  outline: none;
+  resize: none;
+}
+
+.userinfoContainer {
+  width: 920px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: mediumaquamarine;
+  border: none;
+}
+.userInfoBox {
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: rgb(255, 238, 0);
+}
+
+.userinfoInput {
+  position: relative;
+  width: 300px;
+  height: 30px;
+  background: transparent;
+  margin: 0px 0px 10px 10px;
+
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+.userMailInput {
+  position: relative;
+  width: 300px;
+  height: 30px;
+  background: transparent;
+  margin: 0px 0px 10px 10px;
+
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+.userGithubInput {
+  position: relative;
+  width: 300px;
+  height: 30px;
+
+  background: transparent;
+
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-size: 12px;
+  margin: 0px 0px 10px 10px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+.formWraper {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.alert {
+  width: 920px;
+  height: 140px;
+
+  font-size: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: flex;
+  outline: none;
+  background: #3b5998;
+}
+
+.alertMessage {
+  color: white;
+  font-family: 'Alfa Slab One', cursive;
+  font-style: italic;
+  font-size: 55px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.contentBorder {
+  width: 920px;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border: 0.2px solid black;
+}
+
+.btnGroup {
+  width: 900px;
+  margin: 5px 5px 90px 70px;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.saveBtn {
+  width: 90px;
+  height: 39px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: #4267b2;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submitBtn {
+  width: 90px;
+  height: 39px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: #4267b2;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 10px;
+}
+
+.saveBtn:hover {
+  background-color: #3b5998;
   color: white;
 }
+.submitBtn:hover {
+  background-color: #3b5998;
+  color: white;
+}
+/* .buttonSection {
+} */
 
-.App-link {
-  color: #61dafb;
+.field1 {
+  display: flex;
+  padding: 10px;
+
+  padding-right: 10px;
+  /* border: 2px solid black; */
+  background-color: #f39189;
+}
+.formWraperZero {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  background: transparent;
+  /* border: none; */
+  outline: none;
+  font-size: 24px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+}
+.formWraperOne {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  background: transparent;
+  /* border: none; */
+  outline: none;
+  font-size: 24px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formWraperTwo {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  background: transparent;
+  /* border: none; */
+  outline: none;
+  font-size: 24px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+}
+
+.formWraperThree {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  background: transparent;
+  /* border: none; */
+  outline: none;
+  font-size: 24px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+}
+
+.formWraperFour {
+  position: relative;
+  width: 900px;
+  height: 100px;
+  background: transparent;
+  /* border: none; */
+  outline: none;
+  font-size: 24px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+}
+
+.formWraperContent {
+  width: 920px;
+  height: 25px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 32px;
+}
+
+.inputInformation {
+  width: 920px;
+  height: 25px;
+  font-size: 14px;
+  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Gowun Batang', serif;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }

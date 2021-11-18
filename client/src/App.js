@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./routes/Home/index";
+import Mypage from "./routes/Mypage/index";
+import Resume from "./routes/Resume/index";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "../src/routes/Home/Sections/Footer";
+import Signup from "../src/routes/Home/pages/Signup";
+import Story from "routes/Story";
+import Oauth from "routes/Oauth";
+import Login from "../src/routes/Home/pages/Login";
 
 function App() {
+  const [isLogin, setLogin] = useState(false);
+
+  const onLoginHandler = () => {
+    setLogin(true);
+  };
+
+  const onLogoutHandler = () => {
+    setLogin(false);
+  };
+
+  useEffect(() => {
+    const loginInfo = localStorage.getItem("loginInfo");
+    console.log("hi");
+    if (loginInfo) onLoginHandler();
+    else onLogoutHandler();
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Router>
+        <Navbar isLogin={isLogin} setLogin={setLogin} />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/mypage" element={<Mypage />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/sign-up" element={<Signup />} />
+          <Route path="oauth/*" element={<Oauth />} />
+          <Route path="/login" element={<Login setLogin={setLogin} />} />
+          <Route path="story/*" element={<Story />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
