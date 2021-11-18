@@ -34,10 +34,11 @@ https://anderson-1.gitbook.io/api-docs-updatedfin/reference/api-reference
 
 
 ## ✔️ 주요 기능별 시연 GIF
+#### gif 파일의 다운사이징으로 인해 발생하는 화질 저하의 문제점은 양해 부탁드립니다.
 <details>
 <summary>✅ 회원가입 및 로그인 후 마이페이지로 이동</summary>
 <div markdown="1">
-  <img src="" alt="회원가입 및 로그인 후 마이페이지로 이동" />
+  <img src="https://user-images.githubusercontent.com/85002287/142361775-63220992-13e3-4482-971f-be186e9e9d0d.gif" alt="회원가입 및 로그인 후 마이페이지로 이동" />
   </div>
   </details>
   
@@ -56,6 +57,7 @@ https://anderson-1.gitbook.io/api-docs-updatedfin/reference/api-reference
   <details>
 <summary>✅ 이력서 템플릿 선택</summary>
 <div markdown="1">
+      <img src="https://user-images.githubusercontent.com/85002287/142361861-dfe3d4aa-9748-4382-a4c2-b69ada6f1127.gif" alt="이력서 템플릿 선택" />
   </div>
   </details>
 
