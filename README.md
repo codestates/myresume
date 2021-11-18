@@ -34,13 +34,16 @@ https://anderson-1.gitbook.io/api-docs-updatedfin/reference/api-reference
 <br><br>
 
 ## ✔️ Team Metaverse
+<img alt="Python" src ="https://img.shields.io/badge/기술명-원하는색상코드.svg?&style=for-the-badge&logo=로고명&logoColor=로고색상"/>
+<img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
+
 (표로해서 => 이름이랑 깃허브 뱃지, 포지션)
 |이름|포지션|Github|
 |:---|:---|:---|
-|김희원|(팀장)|[![LinkedIn][linkedin-shield]][https://github.com/heewonkim-dev]|
-|이소림|(팀원)|[![LinkedIn][linkedin-shield]][linkedin-url]|
-|윤태섭|(팀원)|[![LinkedIn][linkedin-shield]][linkedin-url]|
-|최우철|(팀원)|[![LinkedIn][linkedin-shield]][linkedin-url]|
+|김희원|(팀장)|<a href="https://github.com/heewonkim-dev"><img alt="Github" src ="https://img.shields.io/badge/@heewonkimdev-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
+|이소림|(팀원)|<a href="https://github.com/solimleee"><img alt="Github" src ="https://img.shields.io/badge/@solimleee-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
+|윤태섭|(팀원)|<a href="https://github.com/taesubyun"><img alt="Github" src ="https://img.shields.io/badge/@taesubyun-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
+|최우철|(팀원)|<a href="https://github.com/chltjdrhd777"><img alt="Github" src ="https://img.shields.io/badge/@chltjdrhd777-181717.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a>|
 
 ## WIKI
 (위키 링크 들어가는 곳)
