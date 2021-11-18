@@ -16,10 +16,9 @@
 
 <br><br>
 
-## 사용 기술 스택
-
-(사용한 기술 스택 다이어그램 넣는 곳)
-
+## ✔️ 사용 기술 스택
+<br>
+<img src="https://cdn.discordapp.com/attachments/907148789637333047/910765281813618698/MYRESUME_1.png" width="700px" height="400px">
 <br><br>
 
 ## ✔️ DB Schema & API DOCS
