@@ -23,7 +23,7 @@
 
 ## ✔️ DB Schema & API DOCS
 ### 📒 DB Schema
-<img src="https://cdn.discordapp.com/attachments/907148789637333047/910723195353563207/2021-11-13_9.32.10_uprgb_anime_noise2_2x.png"  width="800px" height="400px" />
+<img src="https://cdn.discordapp.com/attachments/907148789637333047/910723195353563207/2021-11-13_9.32.10_uprgb_anime_noise2_2x.png" width="800px" height="400px"/>
 
 <br>
 
@@ -32,9 +32,16 @@ https://anderson-1.gitbook.io/api-docs-updatedfin/reference/api-reference
 
 <br><br>
 
-## 주요 기능별 시연 GIF
-### 기능 별로
-(움짤들)
+## ✔️ 주요 기능별 시연 GIF
+### ✅ 회원가입 및 로그인 후 마이페이지로 이동
+
+<br>
+
+### ✅ Job Searching
+
+<br>
+
+### ✅ 이력서 템플릿 선택
 
 <br><br>
 
