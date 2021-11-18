@@ -35,6 +35,7 @@ https://anderson-1.gitbook.io/api-docs-updatedfin/reference/api-reference
 
 ## ✔️ 주요 기능별 시연 GIF
 #### gif 파일의 다운사이징으로 인해 발생하는 화질 저하의 문제점은 양해 부탁드립니다.
+<br>
 <details>
 <summary>✅ 회원가입 및 로그인 후 마이페이지로 이동</summary>
 <div markdown="1">
