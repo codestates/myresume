@@ -32,16 +32,33 @@ https://anderson-1.gitbook.io/api-docs-updatedfin/reference/api-reference
 
 <br><br>
 
+
 ## ✔️ 주요 기능별 시연 GIF
-### ✅ 회원가입 및 로그인 후 마이페이지로 이동
+<details>
+<summary>✅ 회원가입 및 로그인 후 마이페이지로 이동</summary>
+<div markdown="1">
+  <img src="" alt="회원가입 및 로그인 후 마이페이지로 이동" />
+  </div>
+  </details>
+  
+  <br>
 
+  <details>
+<summary>✅ Job Searching</summary>
+<div markdown="1">
+    <img src="https://user-images.githubusercontent.com/85002287/142361497-3e707c46-b000-4508-a47f-bf0937ac3fb2.gif" alt="Job Searching" />
+  </div>
+  </details>
+  
 <br>
 
-### ✅ Job Searching
 
-<br>
+  <details>
+<summary>✅ 이력서 템플릿 선택</summary>
+<div markdown="1">
+  </div>
+  </details>
 
-### ✅ 이력서 템플릿 선택
 
 <br><br>
 
