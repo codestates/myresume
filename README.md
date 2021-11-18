@@ -17,10 +17,13 @@
 <br><br>
 
 ## DB Schema & API DOCS
+### 📒 DB Schema
+<img src="https://cdn.discordapp.com/attachments/907148789637333047/910723195353563207/2021-11-13_9.32.10_uprgb_anime_noise2_2x.png"  width="800px" height="400px" />
 
-(데이터 베이스 스키마 이미지 넣는 곳)
+<br>
 
-(api문서 링크 들어가는 곳)
+### 📒 API DOCS
+https://anderson-1.gitbook.io/api-docs-updatedfin/reference/api-reference
 
 <br><br>
 
